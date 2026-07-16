@@ -1,0 +1,15 @@
+<h1>Mis favoritos</h1>
+
+@if (favorites.length > 0) {
+  @for (favorite of favorites; track favorite.id) {
+
+    <app-pokemon-form
+      [favorite]="favorite"
+      (save)="guardar($event)"
+      (delete)="eliminar($event)">
+    </app-pokemon-form>
+    <hr>
+  }
+} @else {
+  <p>No hay favoritos.</p>
+}

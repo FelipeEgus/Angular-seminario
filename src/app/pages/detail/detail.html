@@ -1,0 +1,44 @@
+
+@if (pokemon) {
+
+  
+  <button (click)="agregarFavorito()">
+    Agregar favorito
+  </button>
+
+  <h1>
+    {{ pokemon.name }}
+  </h1>
+
+  <img [src]="pokemon.image" [alt]="pokemon.name">
+
+  <p>
+    ID: {{ pokemon.id }}
+  </p>
+
+  <p>
+    Altura: {{ pokemon.height }}
+  </p>
+
+  <p>
+    Peso: {{ pokemon.weight }}
+  </p>
+
+  <h3>Tipos</h3>
+  @for (type of pokemon.types; track type) {
+    <p>
+      {{ type }}
+    </p>
+  }
+
+  <h3>Habilidades</h3>
+  @for (ability of pokemon.abilities; track ability) {
+    <p>
+      {{ ability }}
+    </p>
+  }
+}
+
+<button onclick="history.back()">
+  Volver
+</button>
