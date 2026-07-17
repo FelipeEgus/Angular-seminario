@@ -1,3 +1,44 @@
+# Pokédex Angular
+
+## Descripción
+
+En este proyecto, se realiza una Pokédex donde se emplea Angular para obtener información de los Pokémon a partir de una API pública PokeAPI.
+
+La aplicación permite visualizar una lista de Pokémon, consultar su información y gestionar una lista de favoritos a partir de una API REST falsa usando MockAPI.
+
+## Funcionalidades
+
+- Listado de Pokémon que proviene de PokeAPI.
+- Visualización de detalles de cada Pokémon. al cliquear a su altura
+- Añadir Pokémon favoritos.
+- Modificar la nota de un favorito.
+- Eliminar favoritos.
+- Ruteo.
+- Formularios reactivos con validaciones.
+
+## Requisitos implementados
+
+- ✔ Ruteo múltiples páginas.
+- ✔ Componentes reutilizables.
+- ✔ Interfaces con tipado de datos.
+- ✔ Uso de @for y @if.
+- ✔ Comunicación de componentes mediante @Input y @Output.
+- ✔ Solicitudes GET a una API externa.
+- ✔ Solicitudes POST, PUT, DELETE mediante MockAPI.
+- ✔ Formularios reactivos con validaciones.
+
+## Datos del estudiante
+
+- **Nombre y Apellido:** Felipe Egusquiza
+- **DNI:** 44927914
+- **Email:** egus.felipe@gmail.com
+- **Sede:** Tandil
+
+## StackBlitz
+
+https://stackblitz.com/edit/github-4kuznhbe
+
+##
 # Pokedex
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.12.
